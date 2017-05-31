@@ -1,2 +1,3 @@
 name: Anuparna Banerjee
-markdown: kramdown
+markdown: redcarpet
+exclude: ["node_modules", "gulpfile.js", "package.json"]
