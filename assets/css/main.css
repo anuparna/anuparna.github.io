@@ -678,7 +678,7 @@ header {
   header .kicker {
     text-align: center;
     font-family: 'Lucida Handwriting', Helvetica, sans-serif;
-    margin-left: 35%;
+    margin-left: 40%;
     display: inline-block;
     line-height: 5;
     background-color: wheat;
@@ -711,8 +711,8 @@ footer {
   .about-lock {
     margin: auto; }
     .about-lock .face-img {
-      height: 170px;
-      width: 170px;
+      height: 200px;
+      width: 200px;
       display: -webkit-box;
       display: -moz-box;
       display: box;
@@ -720,7 +720,7 @@ footer {
       display: -ms-flexbox;
       display: flex;
       margin: auto;
-      border-radius: 10%;
+      border-radius: 90%;
       background: url(../img/face.JPG) no-repeat; }
     .about-lock .face1-img {
       height: 180px;
@@ -841,12 +841,25 @@ footer {
     max-width: 980px; } }
 
 .blurb {
-  max-width: 750px;
+  max-width: 70%;
   padding: 0 15px;
   margin: 50px auto;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 30;
+  font-family: 'Calibri', Helvetica, sans-serif;
   text-align: center; }
+
+.phone {
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  background: url(../img/phone.png) no-repeat; }
 
 .section-contact {
   background: #e5eaee;
