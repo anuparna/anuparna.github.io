@@ -54,7 +54,7 @@
 
 +MQ(M)
   .about-lock
-    max-width: 680px
+    max-width: 650px
     +display(flex)
     margin: 0 auto
     +align-items(center)
@@ -87,7 +87,8 @@
 
 +MQ(L)
   .about-lock
-    max-width: 980px
+    max-width: 900px
+	
 
 
 
@@ -102,6 +103,22 @@
 
 .phone
   +size(50px)
-  +display(flex)
-  margin: auto
+  font-size: 25px
+  font-weight: 30
+  font-family: 'Calibri', Helvetica, sans-serif;
   background: url(../img/phone.png) no-repeat
+
+
+.mail
+  +size(50px)
+  font-size: 20px
+  font-weight: 30
+  font-family: 'Calibri', Helvetica, sans-serif;
+  background: url(../img/mail.png) no-repeat
+  
+.pdf
+  +size(50px)
+  font-size: 40px
+  font-weight: 30
+  font-family: 'Calibri', Helvetica, sans-serif;
+  background: url(../img/pdf.jpg) no-repeat

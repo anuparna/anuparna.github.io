@@ -664,17 +664,17 @@ header {
       display: inline-block;
       background-color: wheat;
       font-family: 'Oleo Script', Helvetica, sans-serif;
-      padding: 0.2em 0.5em;
+      padding: 0.5em 0.5em;
       border: #010101 solid 10px; }
       @media only screen and (min-width: 220px) {
         header h1 span {
-          padding: 0.2em 0.5em; } }
+          padding: 0.5em 0.5em; } }
       @media only screen and (min-width: 650px) {
         header h1 span {
           padding: 0.1em 0.2em; } }
       @media only screen and (min-width: 1070px) {
         header h1 span {
-          padding: 0.2em 0.5em; } }
+          padding: 0.5em 0.5em; } }
   header .kicker {
     text-align: center;
     font-family: 'Lucida Handwriting', Helvetica, sans-serif;
@@ -775,7 +775,7 @@ footer {
 
 @media only screen and (min-width: 650px) {
   .about-lock {
-    max-width: 680px;
+    max-width: 650px;
     display: -webkit-box;
     display: -moz-box;
     display: box;
@@ -838,7 +838,7 @@ footer {
 
 @media only screen and (min-width: 1070px) {
   .about-lock {
-    max-width: 980px; } }
+    max-width: 900px; } }
 
 .blurb {
   max-width: 70%;
@@ -852,14 +852,26 @@ footer {
 .phone {
   height: 50px;
   width: 50px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin: auto;
+  font-size: 25px;
+  font-weight: 30;
+  font-family: 'Calibri', Helvetica, sans-serif;
   background: url(../img/phone.png) no-repeat; }
+
+.mail {
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  font-weight: 30;
+  font-family: 'Calibri', Helvetica, sans-serif;
+  background: url(../img/mail.png) no-repeat; }
+
+.pdf {
+  height: 50px;
+  width: 50px;
+  font-size: 40px;
+  font-weight: 30;
+  font-family: 'Calibri', Helvetica, sans-serif;
+  background: url(../img/pdf.jpg) no-repeat; }
 
 .section-contact {
   background: #e5eaee;
