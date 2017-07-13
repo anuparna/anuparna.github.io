@@ -51,15 +51,15 @@ header
       &:hover
         color: rgba(1,0,0,1)
 
-  h1
+  h3
     text-align: center
     color: rgba(1, 1, 1, 1)
     text-transform: uppercase
     letter-spacing: 0.05cm
-    margin-bottom: 20px
+    margin-bottom: 10px
     clear: both
     +MQ(S)
-      padding-top: 20px
+      padding-top: 10px
       font:
         size: 20px
         weight: 350
@@ -70,7 +70,7 @@ header
         weight: 350
 
     +MQ(L)
-      padding-top: 50px
+      padding-top: 10px
       font:
         size: 50px
         weight: 700
@@ -91,11 +91,11 @@ header
   .kicker
     text-align: center
     font-family: 'Lucida Handwriting', Helvetica, sans-serif;
-    margin-left: 40%
-    display: inline-block
+    display: block
     @extend %small-bold
-    line-height: 5
+    line-height: 2
     background-color: wheat
     color: rgba(1,1,1,1)
     border: rgba(1, 0, 0,1) solid 3px
     padding: 0.5em
+    margin: 0 auto;

@@ -62,8 +62,8 @@
   position: absolute
   top: 0
   left: 0
-  width: 40px
-  height: 40px
+  width: 50px
+  height: 50px
   border-radius: 50%
   box-shadow: 0 0 0 4px $color-3, inset 0 2px 0 rgba(black, 0.08), 0 3px 0 4px rgba(black, 0.05)
   img
@@ -77,9 +77,9 @@
     margin-top: -12px
 
   &.cd-picture
-    background: $color-1
+    background: wheat
   &.cd-movie
-    background: $color-1
+    background: wheat
   &.cd-location
     background: $color-1
   +MQ(L)
@@ -119,7 +119,7 @@
     padding-bottom: 0px
     color: $color-1
   p, .cd-read-more, .cd-date
-    +font-size(13px)
+    +font-size(20px)
   .cd-read-more, .cd-date
     display: inline-block
   p
@@ -136,7 +136,7 @@
   .cd-date
     float: left
     padding: .8em 0
-    opacity: .7
+    opacity: .9
   &::before
     content: ''
     position: absolute
@@ -152,7 +152,7 @@
     p
       +font-size(16px)
     .cd-read-more, .cd-date
-      +font-size(14px)
+      +font-size(20px)
 
   +MQ(L)
     margin-left: 0
@@ -170,7 +170,7 @@
       width: 100%
       left: 122%
       top: 6px
-      +font-size(16px)
+      +font-size(20px)
     .cd-timeline-block:nth-child(even) &
       float: right
       &::before
@@ -216,3 +216,53 @@
     +transform(translateX(-20px))
   100%
     +transform(translateX(0))
+
+.post-course
+  position: relative;
+  display: inline-block;
+  padding: .4em .5em;
+  margin: 2px 2px 2px 0;
+  font-size: 11px;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0;
+  transition: all .15s ease-in-out;
+  color: #39739d;
+  background-color: #eadcf5;
+  border-color: transparent;
+  font-size: 12px;
+  
+  &:hover
+  color: #33658a;
+  background-color: #eadcf5;
+  border-color: rgba(0,0,0,0);	
+	
+	
+
+.post-tag
+  position: relative;
+  display: inline-block;
+  padding: .4em .5em;
+  margin: 2px 2px 2px 0;
+  font-size: 11px;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0;
+  transition: all .15s ease-in-out;
+  color: #39739d;
+  background-color: #E1ECF4;
+  border-color: transparent;
+  font-size: 12px;
+  
+  &:hover
+  color: #33658a;
+  background-color: #cee0ed;
+  border-color: rgba(0,0,0,0);
