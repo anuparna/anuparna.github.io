@@ -578,7 +578,8 @@ body {
   font-family: 'Open Sans' sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  padding-top: 70px; }
 
 h2 {
   color: #303e49;
@@ -621,6 +622,15 @@ header {
   @media only screen and (min-width: 1070px) {
     header {
       height: 450px; } }
+  header .fixedNav {
+    position: fixed;
+    top: 0px;
+    background: transparent;
+    width: 100%;
+    overflow: visible; }
+  header .navbar-header {
+    margin-left: 5px;
+    width: 100%; }
   header nav {
     float: right;
     margin: 30px 30px 30px; }
@@ -647,17 +657,17 @@ header {
     clear: both; }
     @media only screen and (min-width: 220px) {
       header h3 {
-        padding-top: 10px;
+        padding-top: 10%;
         font-size: 20px;
         font-weight: 350; } }
     @media only screen and (min-width: 650px) {
       header h3 {
-        padding-top: 10px;
+        padding-top: 10%;
         font-size: 30px;
         font-weight: 350; } }
     @media only screen and (min-width: 1070px) {
       header h3 {
-        padding-top: 10px;
+        padding-top: 10%;
         font-size: 50px;
         font-weight: 700; } }
     header h3 span {
@@ -940,7 +950,7 @@ footer {
   background: #e5eaee; }
 
 .cd-container {
-  background: #e5eaee;
+  background: rgba(0, 0, 0, 0.0001);
   width: 90%;
   max-width: 1070px;
   margin: 0 auto; }

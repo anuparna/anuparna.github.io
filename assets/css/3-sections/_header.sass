@@ -29,8 +29,19 @@ header
     height: 450px
   background: url(../img/cover-pic.jpg) center center
   background-size: cover
-
-
+      
+  .fixedNav
+    position: fixed
+    top: 0px
+    float:right
+    background: transparent;
+    width: 100%;
+    overflow: visible;    
+	
+  .navbar-header
+    margin-left: 5px
+    width: 100%
+	
   nav
     float: right
     margin: 30px 30px 30px
@@ -59,18 +70,18 @@ header
     margin-bottom: 10px
     clear: both
     +MQ(S)
-      padding-top: 10px
+      padding-top: 10%
       font:
         size: 20px
         weight: 350
     +MQ(M)
-      padding-top: 10px
+      padding-top: 10%
       font:
         size: 30px
         weight: 350
 
     +MQ(L)
-      padding-top: 10px
+      padding-top: 10%
       font:
         size: 50px
         weight: 700
