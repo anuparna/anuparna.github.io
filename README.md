@@ -1,5 +1,5 @@
 # anuparna.github.io
-My portfolio website: https://anuparna.github.io/
+My portfolio website is hosted on: https://anuparna.github.io/
 
 My online portfolio is generated using Github and Jekyll.
 The website uses Sass, a CSS preprocessor to generate CSS files.
