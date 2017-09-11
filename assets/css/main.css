@@ -594,6 +594,32 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
   font-weight: 700;
   text-transform: uppercase; }
 
+.widthStyle {
+  width: -webkit-fill-available; }
+
+.menu_header {
+  width: 30%;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  -ms-flex-item-align: right;
+      align-self: right;
+  background-color: wheat;
+  font-size: medium;
+  margin-right: inherit; }
+
+.fixedNav {
+  position: fixed;
+  top: 0px;
+  background: transparent;
+  width: 100%;
+  overflow: visible;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  -ms-flex-item-align: right;
+      align-self: right; }
+
 @media only screen and (min-width: 1070px) {
   a.back-to-top {
     display: none;
@@ -626,7 +652,14 @@ header {
     top: 0px;
     background: transparent;
     width: 100%;
-    overflow: visible; }
+    overflow: visible;
+    width: 50%;
+    -webkit-box-align: right;
+        -ms-flex-align: right;
+            align-items: right;
+    -ms-flex-item-align: right;
+        align-self: right;
+    background-color: wheat; }
   header .navbar-header {
     margin-left: 5px;
     width: 100%; }
@@ -904,6 +937,10 @@ footer {
   font-weight: 30;
   font-family: 'Calibri', Helvetica, sans-serif;
   background: url(../img/pdf.jpg) no-repeat; }
+
+.about_me {
+  text-align: center;
+  padding: 10% 0 1%; }
 
 .section-contact {
   background: #e5eaee;
@@ -1525,6 +1562,9 @@ form {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
+
+.anchorTagNormal {
+  color: #0e7fd8; }
 
 .temp-posts {
   margin-bottom: 350px; }
