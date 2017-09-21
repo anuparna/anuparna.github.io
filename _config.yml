@@ -1,4 +1,6 @@
-name: Anuparna Banerjee
+title: Anuparna Banerjee
+author:
+  name: Anuparna Banerjee
 markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 theme: jekyll-theme-cayman
