@@ -1,4 +1,4 @@
 name: Anuparna Banerjee
 markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-theme: jekyll-theme-architect
+theme: jekyll-theme-cayman
