@@ -606,13 +606,13 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
       align-self: right;
   background-color: wheat;
   font-size: medium;
-  margin-right: inherit; }
+  margin-right: inherit;
+  margin-left: 0; }
 
 .fixedNav {
   position: fixed;
   top: 0px;
   background: transparent;
-  width: 100%;
   overflow: visible;
   -webkit-box-align: right;
       -ms-flex-align: right;
