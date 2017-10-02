@@ -939,9 +939,7 @@ footer {
   background: url(../img/pdf.jpg) no-repeat; }
 
 .about_me {
-  text-align: center;
-  padding: 10% 0 1%;
-  margin: 180px 0 0px; }
+  text-align: center; }
 
 .section-contact {
   background: #e5eaee;
